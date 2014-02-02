@@ -18,7 +18,7 @@ mobile phone or interactive voice response service) and the Front End Processor 
 -----------------
 
 | Gateway                                                     | API's            | Description                                      |
-| --------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- | ---------------- | ------------------------------------------------ |
 | [Authorize.net](Authorize/README.md)                        | AIM, ARB         | Single Payments and Recurring Billing            |
 | [PayPal Payments Pro (Payflow Edition)](Paypal/README.md)   | Payflow          | Single Payments and Recurring Billing            |
 | [Stripe](Stripe/README.md)                                  | Charge           | Single Payments                                  |
