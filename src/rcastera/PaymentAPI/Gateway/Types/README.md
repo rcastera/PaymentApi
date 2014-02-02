@@ -17,11 +17,11 @@ mobile phone or interactive voice response service) and the Front End Processor 
 ### Supported gateways
 -----------------
 
-| Gateway                                                                                                                                  | API's            | Description                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------ |
-| [Authorize.net](https://github.com/rcastera/PaymentAPI/src/rcastera/PaymentAPI/Gateway/Types/Authorize/README.md)                        | AIM, ARB         | Single Payments and Recurring Billing            |
-| [PayPal Payments Pro (Payflow Edition)](https://github.com/rcastera/PaymentAPI/src/rcastera/PaymentAPI/Gateway/Types/Paypal/README.md)   | Payflow          | Single Payments and Recurring Billing            |
-| [Stripe](https://github.com/rcastera/PaymentAPI/src/rcastera/PaymentAPI/Gateway/Types/Stripe/README.md)                                  | Charge           | Single Payments                                  |
+| Gateway                                                     | API's            | Description                                      |
+| --------------------------------------------------------------------------------------------------------------------------------- |
+| [Authorize.net](Authorize/README.md)                        | AIM, ARB         | Single Payments and Recurring Billing            |
+| [PayPal Payments Pro (Payflow Edition)](Paypal/README.md)   | Payflow          | Single Payments and Recurring Billing            |
+| [Stripe](Stripe/README.md)                                  | Charge           | Single Payments                                  |
 
 
 ### Writing your own driver

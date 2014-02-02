@@ -9,6 +9,11 @@ the cURL options.
 - Extensible to add many different payment gateways.
 - Consumes gateway api's using the [Guzzle client](http://guzzlephp.org/).
 
+### Supported gateways
+-----------------
+There are several gateways ([Stripe](src/rcastera/PaymentAPI/Gateway/Types/Stripe/README.md), [Authorize.net](src/rcastera/PaymentAPI/Gateway/Types/Authorize/README.md) and [Paypal](src/rcastera/PaymentAPI/Gateway/Types/Paypal/README.md) to name a few) and more will be added but, if you need one that isn't supported yet, feel free to contribute.
+[See supported gateways.](src/rcastera/PaymentAPI/Gateway/Types/README.md)
+
 ### Setup
 -----------------
  Add a `composer.json` file to your project:
@@ -49,16 +54,10 @@ $authorize = PaymentFactory::get('Authorize.Aim');
 
 ```
 
-### Supported gateways
------------------
-There are several gateways and more will be added but, if you need one that isn't supported yet, feel free to contribute.
-[See supported gateways.](https://github.com/rcastera/PaymentAPI/src/rcastera/PaymentAPI/Gateway/Types/README.md)
-
-
 ### Utility class
 -----------------
 There's a utility class that's included for convenince.
-[Learn more about the Utility class](https://github.com/rcastera/PaymentAPI/src/rcastera/PaymentAPI/Util/README.md)
+[Learn more about the Utility class](src/rcastera/PaymentAPI/Util/README.md)
 
 ### Contributing
 -----------------
